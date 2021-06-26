@@ -13,7 +13,7 @@ const fs = require("fs");
     //}
 //});
 
-fs.readFilen("./contents/myfile.txt","utf-8",(err,data)=>
+fs.readFile("./contents/myfile.txt","utf-8",(err,data)=>
 {
     if(err)
     {
